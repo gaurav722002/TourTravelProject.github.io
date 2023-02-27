@@ -122,12 +122,6 @@ body{
             float: right;
             font-size: 10px;
         }}
-        @media(max-width:800px){
-            .contact{
-                display: initial;
-            
-            }
-        }
         @media(max-width:760px){
             .title_bar{
                 color: white;
