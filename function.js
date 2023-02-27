@@ -8,6 +8,7 @@
            side.style.display ="none"
         })
         close.addEventListener('click',function(event){
-            firstSlide.style.left = "-70%"
+            firstSlide.style.left = "-100%"
             side.style.display = "inherit"
+            firstSlide.style.zIndex="2"
         })
