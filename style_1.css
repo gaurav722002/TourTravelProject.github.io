@@ -40,7 +40,7 @@ body{
 }
 .title_bar{
     color: white;
-    width: auto;
+    width: 100%;
     margin-top: 0;
     display: flex;
    
@@ -104,6 +104,7 @@ body{
 }
 .buttn button{
     width: 100px;
+    height: auto;
 }
 /**Responsive headSEction**/
     @media(max-width:1080px){
@@ -130,7 +131,7 @@ body{
         @media(max-width:760px){
             .title_bar{
                 color: white;
-                width: auto;
+                width: 100%;
                 margin-top: 0;
                 display: block;
         }
@@ -160,7 +161,7 @@ body{
                 display: initial;
                 position: absolute;
                 top: 100px;
-                left: 90%;
+                right: 0;
             }
             }
 /**End Head Section**/
@@ -208,6 +209,7 @@ body{
 }
 /**Destination**/
 .destin{
+    width: 100%;
     height: auto;
     margin-top: 50px;
     font-size: 20px;
@@ -222,9 +224,6 @@ body{
 .destin div{
     display: block;
     margin-top: 70px;
-}
-.destin div p{
-    justify-content: left;
 }
 .destin div img{
    display: block;
@@ -249,8 +248,8 @@ body{
     font-size: 20px;
     text-align: center;
     margin-top: 50px;
-    height: 300px;
-    width: 400px;
+    height: auto;
+    width: 100%;
 }
 #copy{
     text-align: center;
@@ -285,7 +284,7 @@ body{
 }}
 @media(max-width:432px){
     body{
-        width: auto;
+        width: 100%;
        
     }
     .end{
@@ -294,4 +293,87 @@ body{
     .body{
         height: auto;
     }
+}
+@media(max-width:450px){
+    .body h1{
+        font-size: larger;
+    }
+    .body {
+        line-break: auto;
+    }
+    .headline h1{
+        font-size: 30px;
+        line-break: auto;
+    }
+    .destin{
+        line-break: auto;
+    }
+    .destin div{
+        width: 100%;
+        height: auto;
+    }
+    .destin img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width:245px){
+    .midsec div{
+        padding: 10px;
+        height: auto;
+    }
+}
+@media(max-width:230px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    .title_bar .logo{
+        padding: 0;
+        font-size: medium;
+    }
+    .destin{
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width: 190px){
+    .head .buttn{
+        text-align: left;
+        width: 100%;
+        height: auto;
+    }
+        .body{
+        width: 100%;
+        height: auto;
+    }
+    .head h1{
+        font-size: 18px;
+    }
+    .body{
+        text-align: left;
+    }
+    .destin h1{
+        font-size: 12px;
+        text-align: left;
+    }
+    .destin div h1{
+        font-size: 10px;
+    }
+    .destin div{
+        font-size: x-small;
+    } 
+    #first_slide{
+        display: none;
+    }
+}
+@media(max-width:180px){
+    .body{
+        padding: 0;
+    }
+        .search input{
+            width: 100%;
+            height: auto;
+        }
 }
